@@ -13,6 +13,12 @@
 
         </ul>
         <script>
+            async function hello(name) {
+                return "Hello " + name;
+            }
+            const result = hello("Buffy");
+            console.log(result);
+            result.then(res => console.log(res));
 
         </script>
     </body>
